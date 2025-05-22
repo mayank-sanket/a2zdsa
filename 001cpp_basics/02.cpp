@@ -18,7 +18,7 @@ int main() {
     double b = 2.718281828459045; // Double-precision floating-point
     long double c = 1.618033988749894L; // Extended-precision floating-point
 
-    cout << fixed << setprecision(10); // Set precision for floating-point output
+    cout << "fixed " <<fixed << setprecision(10); // Set precision for floating-point output
     cout << "float: " << a << endl;
     cout << "double: " << b << endl;
     cout << "long double: " << c << endl;
